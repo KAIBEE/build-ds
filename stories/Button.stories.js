@@ -1,4 +1,4 @@
-import { createButton } from './Button';
+import { createButton } from '../src/button/Button';
 
 export default {
   title: 'Example/Button',

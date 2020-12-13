@@ -1,4 +1,4 @@
-import { createHeader } from './Header';
+import { createHeader } from '../src/header/Header';
 
 export default {
   title: 'Example/Header',
