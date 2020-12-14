@@ -10,7 +10,7 @@ export default {
   },
 };
 
-const Template = (args) => createPage(args);
+const Template = (args : any) => createPage(args);
 
 export const LoggedIn = Template.bind({});
 LoggedIn.args = {

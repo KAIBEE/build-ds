@@ -9,7 +9,7 @@ export default {
   },
 };
 
-const Template = (args) => createHeader(args);
+const Template = (args : any) => createHeader(args);
 
 export const LoggedIn = Template.bind({});
 LoggedIn.args = {

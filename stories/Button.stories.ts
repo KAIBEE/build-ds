@@ -13,10 +13,9 @@ export default {
   },
 };
 
-const Template = ({ label, ...args }) => {
+const Template = ({ label, ...args } : any) => {
   // You can either use a function to create DOM elements or use a plain html string!
   // return `<div>${label}</div>`;
-  // @ts-ignore
   return createButton({ label, ...args });
 };
 

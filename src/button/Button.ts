@@ -1,4 +1,4 @@
-import './button.css';
+import './button.scss';
 
 export const createButton = ({
   primary = false,
@@ -6,7 +6,7 @@ export const createButton = ({
   backgroundColor,
   label,
   onClick,
-}) => {
+} : any) => {
   const btn = document.createElement('button');
   btn.type = 'button';
   btn.innerText = label;
