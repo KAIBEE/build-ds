@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "capture": "npx rimraf out/screenshots && npx storycap http://localhost:6006 --flat --outDir \"out/screenshots\"",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "webpack --config webpack.config.js && build-storybook --output-dir out/storybook"
