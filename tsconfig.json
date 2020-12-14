@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./out/js/",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "module": "ES2015",
+    "lib": ["es5", "dom"],
+    "target": "es5",
+    "sourceMap": true,
+    "allowJs": true
+  }
+}
