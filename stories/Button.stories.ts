@@ -1,7 +1,9 @@
 import { createButton } from '../src/button/Button';
+import { withScreenshot } from 'storycap';
 
 export default {
   title: 'Example/Button',
+  decorators: [withScreenshot],
   argTypes: {
     label: { control: 'text' },
     primary: { control: 'boolean' },
@@ -11,6 +13,11 @@ export default {
     },
     onClick: { action: 'onClick' },
   },
+  parameters: {
+    screenshot: {
+      skip: false
+    }
+  }
 };
 
 const Template = ({ label, ...args } : any) => {
